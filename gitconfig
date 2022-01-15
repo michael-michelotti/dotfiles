@@ -1,0 +1,7 @@
+[user]
+	name = Michael Michelotti
+	email = 50560169+michael-michelotti@users.noreply.github.com
+[alias]
+	l = log --oneline
+	c = commit
+	s = switch
