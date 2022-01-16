@@ -10,4 +10,5 @@ record of my configuration files for various tools starting with vim
 - Track pad (Three Finger Drag and Tap to Click)
 - .zshrc
 - Git (config and SSH)
+- Homebrew Install
 
