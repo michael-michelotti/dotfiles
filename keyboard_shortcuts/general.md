@@ -53,3 +53,23 @@ Mostly just the [default from Visual Studio Code](https://code.visualstudio.com/
 | Key      | Description            |
 | -------- | ---------------------- |
 | `Ctrl+U` | Clear currnent command |
+
+> OS - Windows
+
+| Key              | Description                                          |
+| ---------------- | ---------------------------------------------------- |
+| `Win+D`          | Display/hide desktop                                 |
+| `Win+E`          | Open File exporer                                    |
+| `Win+I`          | Open Settings                                        |
+| `Win+K`          | Open Bluetooth Connect menu (may be different Win11) |
+| `Win+V`          | Open Clipboard history                               |
+| `Win+.`          | Open emoji pane                                      |
+| `Win+Tab`        | Open task pane                                       |
+| `Win+Home`       | Minimize all but current window                      |
+| `F2`             | File explorer: rename                                |
+| `F3`             | File explorer: search                                |
+| `F3`             | File explorer: search                                |
+| `Alt+D`          | File explorer: select address bar                    |
+| `Ctrl+N`         | File explorer: new window in current location        |
+| `Ctrl+W`         | File explorer: close current window                  |
+| `Ctrl+Shift+Esc` | Open Task Manager                                    |
