@@ -7,7 +7,9 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # Change ZSH Options
 
 # Create Aliases
-alias ll="ls -lAFh"
+# alias ll="ls -lAFh"
+alias ll="exa -laFh --git"
+alias exa="exa -laFh --git"
 
 # Customize Prompt(s)
 PROMPT="

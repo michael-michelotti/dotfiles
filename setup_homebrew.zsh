@@ -4,9 +4,11 @@ echo "\nStarting Homebrew Setup >>>\n"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install httpie
-brew install bat
+# brew install httpie
+# brew install bat
 
 # brew --cask install google-chrome
 # brew --cask install visual-studio-code
-brew install --cask --no-quarantine alfred 
+# brew install --cask --no-quarantine alfred 
+
+brew bundle --verbose
