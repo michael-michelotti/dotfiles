@@ -8,6 +8,14 @@ For example, in the "coding" context, I might want my `Ctrl+D` hotkey to "select
 
 ## Contexts
 
+### Global (same across all contexts)
+
+| Key          | Description                  |
+| ------------ | ---------------------------- |
+| `Ctrl+T`     | New tab                      |
+| `Ctrl+[num]` | Switch to tab at index [num] |
+| `Ctrl+W`     | Close tab                    |
+
 > Coding - Windows
 
 Mostly just the [default from Visual Studio Code](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)

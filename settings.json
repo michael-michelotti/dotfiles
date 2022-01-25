@@ -1,0 +1,25 @@
+{
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.minimap.enabled": false,
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Monokai",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.hover.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.guides.bracketPairs": "active"
+}
