@@ -16,6 +16,3 @@ set lbr               " Wrap entire words
 
 set belloff=all       " Flash cursor rather than noise on error
 syntax enable         " Turn on syntax highlighting
-colorscheme molokai   " monokai.vim from https://github.com/sickill/vim-monokai/tree/master/colors must be in ~/.vim/colors
-                      " molokai.vim: https://github.com/tomasr/molokai
-
