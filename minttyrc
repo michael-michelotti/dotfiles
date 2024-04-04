@@ -1,3 +1,4 @@
 CursorType=block
 CursorBlinks=no
 ClicksPlaceCursor=yes
+Font=Consolas
