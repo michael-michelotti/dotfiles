@@ -6,5 +6,7 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.colorTheme": "Monokai",
   "workbench.startupEditor": "none",
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.cursorBlinking": "solid",
+  "files.insertFinalNewline": true
 }

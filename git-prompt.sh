@@ -22,4 +22,4 @@ then
 fi
 PS1="$PS1"'\[\033[0m\]'        # change color
 # PS1="$PS1"'\n'                 # new line
-PS1="$PS1"'$ '                 # prompt: always $
+PS1="$PS1"' $ '                 # prompt: always $
