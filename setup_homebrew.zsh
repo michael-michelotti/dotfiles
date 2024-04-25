@@ -10,5 +10,6 @@ echo "\nStarting Homebrew Setup >>>\n"
 # brew --cask install google-chrome
 # brew --cask install visual-studio-code
 # brew install --cask --no-quarantine alfred 
+# test change from m2 air
 
 brew bundle --verbose
