@@ -9,26 +9,32 @@
 # alias ll="exa -laFh --git"
 # alias exa="exa -laFh --git"
 
+# Customize Prompt(s)
 function git_branch_name()
 {
-  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
-  if [[ $branch == "" ]];
-  then
-    :
-  else
-    echo '('$branch')'
+  local branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+  if [[ -n $branch ]]; then
+    echo " ($branch)"
   fi
 }
 
 # Enable substitution in the prompt.
 setopt prompt_subst
 
-# Config for prompt. PS1 synonym.
-PROMPT="
-%F{green}%~%f %F{blue}$(git_branch_name)%f %# "
-# Customize Prompt(s)
-# PROMPT="
-# %1~ %M %# "
+function set_prompt() {
+    PROMPT="
+%F{green}%~%f%F{blue}$(git_branch_name)%f %# "
+}
+
+# Set initial prompt
+set_prompt
+
+# Update git branch name when changing directories
+function chpwd_update_prompt() {
+    set_prompt
+}
+
+add-zsh-hook chpwd chpwd_update_prompt
 
 RPROMPT="%*"
 
