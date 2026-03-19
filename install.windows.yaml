@@ -1,0 +1,8 @@
+- defaults:
+    link:
+      relink: true
+
+- link:
+    ~/.bash_profile: windows/bash_profile
+    ~/.bashrc: windows/bashrc
+    ~/.minttyrc: windows/minttyrc

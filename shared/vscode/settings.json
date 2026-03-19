@@ -1,0 +1,25 @@
+{
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Monokai",
+  "workbench.startupEditor": "none",
+  "editor.cursorBlinking": "solid",
+  "files.insertFinalNewline": true,
+  "svelte.enable-ts-plugin": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

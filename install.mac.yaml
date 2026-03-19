@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+
+- link:
+    ~/.zshrc: mac/zshrc
+
+- create:
+    - ~/Work
+
+- shell:
+    - command: ./mac/setup_homebrew.zsh
+      stdout: true
+      stderr: true

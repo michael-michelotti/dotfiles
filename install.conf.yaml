@@ -5,15 +5,5 @@
 - clean: ["~"]
 
 - link:
-    #   ~/.vim: vim
-    ~/.vimrc:
-    ~/.zshrc:
-    ~/.gitconfig:
-
-- create:
-    - ~/Work
-
-- shell:
-    - command: ./setup_homebrew.zsh
-      stdout: true
-      stderr: true
+    ~/.vimrc: shared/vimrc
+    ~/.gitconfig: shared/gitconfig
